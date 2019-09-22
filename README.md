@@ -2,6 +2,8 @@
 
 GPU-enabled docker image for deep learning
 
+[![Build Status](https://github.com/timesler/docker-jupyter-dl-gpu/workflows/docker-build/badge.svg)]()
+
 ## Prerequisites
 
 * docker
