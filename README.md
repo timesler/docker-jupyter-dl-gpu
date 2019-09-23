@@ -39,7 +39,7 @@ Depending on your system's configuration, you may need to call nvidia-docker ins
 
 ## Complete package list
 
-Below is a complete list of conda packages install in the image:
+Below is a complete list of conda packages installed in the image:
 
 | Name | Version | Build | Channel |
 |----------------------|---------------|--------------------|--------------|
