@@ -1,8 +1,12 @@
 # docker-jupyter-dl-gpu
 
-GPU-enabled docker image for deep learning
-
 [![Build Status](https://github.com/timesler/docker-jupyter-dl-gpu/workflows/docker-build/badge.svg)]()
+
+GPU-enabled docker image for deep learning.
+
+The image provides a complete environment for deep learning in pytorch, including ipython, conda, cuda, pytorch, torchvision, tensorboard, numpy, pandas, scipy, matplotlib, seaborn, and many more (see below for a full package list).
+
+This image is fully compatible as the user image for a JupyterHub deployment.
 
 ## Prerequisites
 
