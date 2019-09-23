@@ -25,6 +25,16 @@ Jupyter lab:
 docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:1.4 jupyter lab
 ```
 
+IPython:
+```bash
+docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:1.4 ipython
+```
+
+Bash:
+```bash
+docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:1.4 bash
+```
+
 Depending on your system's configuration, you may need to call nvidia-docker instead of docker or specify nvidia as the docker runtime.
 
 ## Complete package list
