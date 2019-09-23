@@ -17,22 +17,22 @@ This image is fully compatible as the user image for a JupyterHub deployment.
 
 Jupyter:
 ```bash
-docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:1.4
+docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:latest
 ```
 
 Jupyter lab:
 ```bash
-docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:1.4 jupyter lab
+docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:latest jupyter lab
 ```
 
 IPython:
 ```bash
-docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:1.4 ipython
+docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:latest ipython
 ```
 
 Bash:
 ```bash
-docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:1.4 bash
+docker run --rm -p 8888:8888 -v <local path>:/home/jovyan/ timesler/jupyter-dl-gpu:latest bash
 ```
 
 Depending on your system's configuration, you may need to call nvidia-docker instead of docker or specify nvidia as the docker runtime.
