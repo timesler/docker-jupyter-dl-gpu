@@ -191,11 +191,12 @@ RUN conda install --quiet --yes \
     'cudatoolkit=10.1' \
     'torchvision=0.4.2' \
     'tensorboard=2.0.0' \
+    'pillow=6.1' \
     'opencv=4.0.1' \
     '-c pytorch' \
     && \
     conda clean --all -f -y && \
-    pip install --no-cache-dir future facenet-pytorch>=1.0.1 && \
+    pip install --no-cache-dir future facenet-pytorch>=1.0.1 xt-training>=1.3.0 && \
     # Activate ipywidgets extension in the environment that runs the notebook server
     jupyter nbextension enable --py widgetsnbextension --sys-prefix && \
     # Also activate ipywidgets extension for JupyterLab
