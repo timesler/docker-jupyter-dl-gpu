@@ -1,4 +1,4 @@
-ARG BASE_CONTAINER=nvidia/cuda:10.2-base-ubuntu18.04
+ARG BASE_CONTAINER=nvidia/cuda:10.1-base-ubuntu18.04
 FROM $BASE_CONTAINER
 
 LABEL maintainer="Tim Esler <tim.esler@gmail.com>"
